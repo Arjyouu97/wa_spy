@@ -31,7 +31,7 @@ This project creates a simple web server using Express and Socket.IO to interact
 ## Usage
 
 1. **Access the web page:**
-   Open your browser and navigate to `http://localhost:911`. wait 10 sec You will see a QR code.
+   Open your browser and navigate to `http://localhost:911`. wait 10 sec You will see a QR code, use ngrock to share among others.
 
 2. **Scan the QR code:**
    Open WhatsApp on your phone, go to the menu, select "WhatsApp Web", and scan the QR code displayed on the webpage.
