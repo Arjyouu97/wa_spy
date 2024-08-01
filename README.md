@@ -15,7 +15,7 @@ This project creates a simple web server using Express and Socket.IO to interact
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Arjyouu97/wa_spy.git
-   cd whatsapp-web-client
+   cd wa_spy
    ```
 
 2. **Install dependencies:**
