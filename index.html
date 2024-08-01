@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp QR Code</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>WhatsApp QR Code</h1>
+    <div id="qrcode"></div>
+    <div id="status"></div>
+    <script>
+        var socket = io();
+
+        socket.on('qr', function (data) {
+            document.getElementById('qrcode').innerHTML = '<img src="' + data + '">';
+        });
+
+        socket.on('ready', function (data) {
+            document.getElementById('status').innerText = data;
+        });
+    </script>
+</body>
+</html>
+
